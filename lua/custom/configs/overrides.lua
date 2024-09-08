@@ -38,6 +38,21 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- TODO: Following comment are waiting for testing
+    -- golang
+    "gopls",
+                 --  golangci-lint
+                 --  golangci-lint-langserver
+
+    -- kubernetes
+    "yamlls",    -- yaml-language-server
+    "ansiblels", -- ansible-language-server
+                 -- ansible-lint
+    "helm",      -- helm-ls
+                --  html-lsp
+
+    --  bash-language-server
   },
 }
 
