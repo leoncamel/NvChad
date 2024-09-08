@@ -10,6 +10,7 @@
 --
 -- From: https://nvchad.com/docs/recipes#restore_cursor_position
 --
+-- NOTE: Another alternative is use 'vladdoster/remember.nvim' plugin
 local autocmd = vim.api.nvim_create_autocmd
 
 autocmd("BufReadPost", {
